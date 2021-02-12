@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <header>
+<link rel="stylesheet" href="Webpage%20CSS.css">
+  <title> Lab: First Website</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+      <video autoplay muted loop id="Video">
+      <source src="video.mp4" type="video/mp4">
+      </video>
+</header>
+    <main>
+        
+        <div class="content">
+            
+       <ul class ="navbar">
+        <li class ="navitem"><a href="#home">Home</a></li>
+        <li class ="navitem"><a href="#background">About Me</a></li>
+        <li class ="navitem"><a href="#future">Future</a></li>
+        <li class ="navitem"><a href="#contact">Contact</a></li>
+      </ul>
+            
+            <img src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Cute cat" class="cute_cat">
+            <div class="test"><h1></h1></div>
+            
+  <h1 class="header">About Me</h1>
+      <h2 class="name"><a name="home">Hunter Walker</a></h2>
+
+            <h3> <a name="background"> My Background</a></h3>
+              <p>I have moved around the majority of my life being an army brat and finally settled in North Carolina. I attended Crest Middle school then went on to Cleveland Early College High School or CECHS where I graduate from high school and CCC at the same time. After graduating from CCC I went on to UNCC pursuing a B.S. in Game Development and Design and Artificial Intelligence. After completing the majority of the program I left UNCC and attended again CCC pursuing their Web Dev
+              and Design degree as well as Networking and Cybersecurity degrees. However, jumping to more personal levels, I typically find myself playing and streaming games. I adore building and maintaining PCs, setting up devices especially Smart
+              devices, and generally making PC setups look appealing through dusting and cable management.
+                <p>
+                  <h3> <a name ="future">My Future</a></h3>
+                      <p> Currently my future plans are to graduate from CCC and look towards getting a job in Charlotte so that I can afford to live there and start a  career. Potentially, going to UNCC part time and continuing my education    while working.
+                      Ideally I would love to be able to finish a B.S. at UNCC and find a career in Game Dev/Design as a level or concept designer. I have worked in AI some and do not enjoy all the tedious work that goes into making convincing AI. Overall,
+                      I am just eager to get into the industry in any capacity as Game Design/Level Design has been a passion of mine since I first played Halo C.E. way back when.
+            </p>
+            <h3> <a name="contact">Contacts</a></h3>
+                      <p>Email:Walkerh447@my.clevelandcc.edu</p>
+            
+            <a href="https://www.linkedin.com/in/hunter-walker-96238111a"><img alt="LinkedIn" src="LinkedIn.png" class="linked_in"></a>
+            
+            <p>
+                        <button id="myBtn" onclick="myFunction()">Pause</button>
+            </p>
+        
+   
+<!--Script to allow the background video to be paused and played, changing the text accordingly.-->
+    
+<script>
+var video = document.getElementById("Video");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</div>
+</main>
+</body>
+
+</html>

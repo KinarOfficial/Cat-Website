@@ -1,0 +1,162 @@
+.header {
+    color: azure;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+    text-align:center;
+    max-height:auto;
+    max-width: auto;
+}
+.name {
+    color:aliceblue;
+    margin:auto;
+    width: auto;
+    height: auto;
+    font-size: 3vw;
+    text-align: center;
+}
+ h3 {
+  background: grey;
+  text-align:center;
+  padding 15px 60px;
+  max-width: 2080px;
+  width: auto;
+  position: relative;
+  margin-right:auto;
+  margin-left:auto;
+  font-size: 1.5vw;
+}
+
+/*
+All paragraph blocks
+*/
+p {
+    height: auto;
+    max-width: 2080px;
+    min-width: auto;
+    width:auto;
+    padding 15px 60px;
+    margin:auto;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1vw;
+}
+/*
+Navigation Bar
+*/
+.navbar{
+  list-style-type:none;
+  background-color:#999999;   
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  position:sticky;
+  top:0;
+}
+
+
+.navitem{
+  float:left;
+  width: auto;
+  height: auto;
+  border-right: 2px solid Black;
+    
+}
+.navitem a{
+  display:inline-block;
+  color:black;
+  width: auto;
+  height: auto;
+  text-align:center;
+  padding: 14px 16px;
+  font-size: .8vw;
+    
+}
+.navitem a:hover{
+  background-color:aquamarine;
+}
+/*
+Content of the page
+*/
+.content {
+    position:sticky;
+    margin: auto;
+    bottom:auto;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    width:auto;
+    height: auto;
+    padding:20px 30px 30px 30px;
+    max-height: auto;
+    max-width: auto;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:-100px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:180px;}
+  75%  {background-color:green; left:-200px; top:180px;}
+  100% {background-color:red; left:-200px; top:0px;}
+}
+.test {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin:0 auto;
+    /*Animations*/
+    background-color: red;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+/*
+Cat picture as the main center
+*/
+.cute_cat {
+    
+    max-width:auto;
+    max-height:auto;
+    margin: auto;
+    display: block;
+    height: auto;
+    width: 40%;
+    border-radius: 70%;
+    transition: width .5s;
+}
+.cute_cat:hover {
+    width: 50%;
+}
+.linked_in {
+    max-width:10%;
+    max-height: 10%;
+    margin: 0 auto;
+    display:block;
+}
+/*
+Background video and button
+*/
+#Video {
+    position: fixed;
+    margin:0 auto;
+    top:0;
+    right:0;
+    min-width: auto;
+    min-height: auto;
+    max-height: auto;
+    max-width: auto;
+}
+#myBtn {
+    min-width:150px;
+    max-width: auto;
+    margin: 24px auto;
+    font-size: 1vw;
+    padding: 5px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
